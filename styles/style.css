@@ -19,17 +19,17 @@
   align-items: center;
   position: relative;
   background-color: #f2f2f2;
-
   /* выше установили ограничения для секции */
 }
 
 .logo {
-
+  width: 183px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .logo_place_header {
   background-image: url("../images/logo_place_header.svg");
-  width: 183px;
   height: 32px;
   position: absolute;
   top: 30px;
@@ -43,7 +43,6 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
-
 }
 
 .header__subtitle {
@@ -55,7 +54,6 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-
 }
 
 .header__link {
@@ -70,7 +68,6 @@
   height: 608px;
   width: 765px;
   z-index: 1;
-
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -118,7 +115,6 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-
 }
 
 .two-columns__paragraph:last-of-type {
@@ -142,7 +138,6 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
-
 }
 
 .section-subtitle {
@@ -152,7 +147,6 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-
 }
 
 .table {
@@ -254,9 +248,6 @@
   line-height: 69px;
 }
 
-.section-subtitle_theme_dark {
-}
-
 .table_theme_dark {
   margin-bottom: 90px;
 }
@@ -266,12 +257,6 @@
   width: 200px;
   color: white;
   margin-top: 80px;
-}
-
-.table__heading_theme_dark {
-}
-
-.table__text_theme_dark {
 }
 
 .footer {
@@ -299,7 +284,6 @@
 
 .logo_place_footer {
   background-image: url("../images/logo_place_footer.svg");
-  width: 183px;
   height: 35px;
 }
 
@@ -309,13 +293,6 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-}
-
-.footer__column_content_info {
-}
-
-.footer__column_content_social {
-
 }
 
 .footer__column-heading {
